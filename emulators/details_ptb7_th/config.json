@@ -1,0 +1,31 @@
+{
+	"general":    {
+			"domain": "cube",
+			"targets": "same",
+			"feature_rescaling": "standardization",
+			"target_rescaling": "same",
+			"model": "probabilistic"
+		},
+	"emulator_parameters": {
+			"ACT_FUNC":      "softplus",
+			"ACT_FUNC_OUT":  "relu",
+			"REG":            0.0031622776601683794,
+			"LEARNING_RATE":  0.001,
+			"MLP_SIZE":       12,
+			"DROP":           0.1
+		},
+	"parameters": [
+			{"name": "mat_0", "low": 0.0, "high": 1.0},
+			{"name": "mat_1", "low": 0.0, "high": 1.0},
+			{"name": "mat_2", "low": 0.0, "high": 1.0},
+			{"name": "mat_3", "low": 0.0, "high": 1.0}
+		],
+	"measurements": [
+			{"name": "stability"}
+		],
+	"objective": {
+			"name": "stability",
+			"goal": "minimize"
+		}
+
+}
