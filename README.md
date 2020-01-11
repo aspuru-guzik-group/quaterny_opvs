@@ -4,7 +4,7 @@
 
 This repository contains the data and experiment emulators to the demonstrated high-throughput and autonomous experimentation methods for the effective optimization of multi-component polymer blends for organic photovoltaics [1]. Specifically, the study identified photostable quarterny polymer blends composed of different ratios of PBQ-QF, P3HT, PCBM and oIDTBR (the PBQ-QF blend) or PTB7-Th, P3HT, PCBM and oIDTBR (the PTB7-Th blend).
 
-The experiment emulators are constructed from Bayesian neural networks and can be found in the `emulators` folder of this repository.
+Experimental results are reported in the file `experimental_data.xlsx`. The experiment emulators are constructed from Bayesian neural networks and can be found in the `emulators` folder of this repository.
 
 ##### Requirements
 
